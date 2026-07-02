@@ -1,0 +1,13 @@
+In PowerShell,
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+In command prompt,
+uv init
+
+This command initializes a project / working repository
+
+uv venv
+.venv\Scripts\activate
+
+
+uv add -r requirements.txt
